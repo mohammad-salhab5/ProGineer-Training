@@ -2,7 +2,10 @@ students= {}
 
 
 def add_grade(students, name, grade):
-    if name not in students:
+    if grade<0 or grade>100:
+       print("grade must be between 0 and 100.")
+   
+    elif name not in students:
         students[name]= []
     
     students[name].append(grade)
@@ -21,12 +24,12 @@ add_grade(students, "mohammadS", 19)
 
 
 def average_grade(students, name):
-  avrg=(sum(students[name]))/(len (students[name]))
-  if name in students:
-    print(f"{name} has an average {avrg}")
+    if name in students:
+     avrg=(sum(students[name]))/(len (students[name]))
+    return avrg 
 
-
-
+avg = average_grade(students, "mohammad")
+print(avg)
 
       
 def top_student(students):
@@ -53,23 +56,50 @@ def remove_student(students, name):
        
       
 
-          
+def class_average(students):
+   sum=0
+   count=0
+   for name in students:
+      sum += average_grade(students, name)
+      count+=1
+   return sum/count     
 
-
- 
-average_grade(students, "mohammad")
-average_grade(students, "mohammadS") 
-average_grade(students, "Adam") 
-top_student(students)
-remove_student(students, "Adam") 
-
+avgc = class_average(students)
+print(avgc)
        
 
+def student_report(students, name):
+   if name in students:
+    report = f"{name}: grades = {students[name]}, average = {average_grade(students, name)}"
+    return report
+   else:
+      return "student not exist"
 
 
+n=student_report(students, "mohammad")
+print(n)
     
+def letter_grade(score):
+   if score >=90:
+      return 'A'
+   elif score>=80 and score <90 :
+      return 'B'
+   elif score>=70 and score <80:
+      return 'C'
+   elif score >=60 and score <69:
+      return  'D'
+   elif score >= 0 and score >60:
+      return 'F'
+   else:
+      return 'The grade is not defined'
+
+def sorted_students(students):
+    sorted_list = sorted(students.items(), key=lambda x: sum(x[1]) / len(x[1]), reverse=True)
+
+    return sorted_list  
 
 
-
+sorted_list = sorted_students(students)
+print("Students sorted by average grade (highest to lowest): {}".format([name for name, grades in sorted_list]))
 
     
