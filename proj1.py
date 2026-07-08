@@ -1,4 +1,5 @@
 from os import name
+import json
 
 
 student={}
@@ -140,12 +141,49 @@ print(f"The letter grade for the score  is: {letter}")
 
 
 
+print(json.dumps(student))
+
+with open("student.json", "w") as f:
+
+    json.dump(student, f)
+
+
+
+with open("student.json", "r") as f:
+
+    loaded_student = json.load(f)
+
+print(loaded_student)
 
 
 
 
+response = {
 
+    "choices": [
 
+        {
+
+            "message": {
+
+                "role": "assistant",
+                "role2": "system",
+
+                "content": "Photosynthesis converts sunlight into energy."
+
+            }
+
+        }
+
+    ]
+
+}
+print(response["choices"][0]["message"]["role"])
+print(response["choices"][0]["message"]["role2"])
+print(response["choices"][0]["message"]["role2"][0:3])
+print(response["choices"][0]["message"]["content"])
+
+print(json.dumps(response))
 
 
 
