@@ -1,3 +1,5 @@
+import json
+
 students = {}
 
 def add_grades(students, name, grade):
@@ -152,3 +154,53 @@ print(letter3)
 
 letter4 = letter_grade(22)
 print(letter4)
+
+
+print(json.dumps(students))
+
+
+with open("students.json", "w") as f:
+
+    json.dump(students, f)
+
+with open("students.json", "r") as f:
+
+    loaded_student = json.load(f)
+
+print(loaded_student)
+
+response = {
+
+    "choices": [
+
+        {
+
+            "message": {
+
+                "role": "assistant",
+
+                "content": "Photosynthesis converts sunlight into energy."
+
+            }
+
+            
+
+        },
+        {
+            "message2": {
+
+                "role": "manager",
+
+                "content": "Photosynthesis converts sunlight into energy."
+
+            }
+        }
+
+    ]
+
+}
+print(response["choices"][0]["message"]["role"])
+print(response["choices"][0]["message"]["content"])
+print(response["choices"][1]["message2"]["role"])
+print(response["choices"][1]["message2"]["content"])
+
