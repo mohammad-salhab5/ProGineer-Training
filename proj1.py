@@ -1,9 +1,18 @@
-from os import name
+from os import name, stat
 import json
+from fastapi import FastAPI
+from fastapi import HTTPException
+
 
 
 student={}
 average_grades={}
+
+from pydantic import BaseModel
+
+class Grade(BaseModel):
+    name: str
+    grade: int
 
 def add_grades(student, name, grade):
     if name not in student:
@@ -11,16 +20,29 @@ def add_grades(student, name, grade):
     if grade > 0 and grade <= 100:
         student[name].append(grade)
     else:
-        print("Invalid grade. Please enter a grade between 0 and 100.") 
+        raise HTTPException(status_code=400, detail="Grade must be between 0 and 100") 
 
+app = FastAPI()
 
-add_grades(student, "mohammad", 70)
-add_grades(student, "mohammad", 90)
-add_grades(student, "adam", 100)
-add_grades(student, "adam", 80)
-add_grades(student, "baha", 60)
-add_grades(student, "baha", 50)
-print(student)
+@app.get("/students")
+def get_students():
+    return list(student.keys())
+
+@app.get("/students/{name}/grades")
+def get_student_grades(name: str):
+    if name in student:
+        return {"name": name, "grades": student[name]}
+    else:
+        raise HTTPException(status_code=404, detail="Student not found")
+
+@app.post("/add_grade")
+def add_grade(grade: Grade):
+    add_grades(student, grade.name, grade.grade)
+    return {"message": f"Grade {grade.grade} added for student {grade.name}"}
+
+class StudentName(BaseModel):
+    name: str
+
 
 def calculate_average(student, name):
     try:
@@ -30,11 +52,23 @@ def calculate_average(student, name):
       
     except (KeyError, ZeroDivisionError):
      
-        print("Student not found or no grades available.")
+        return None
 
+@app.post("/average")
+def average(data: StudentName):
+    avg = calculate_average(student, data.name)
 
-avg =calculate_average(student, "mohammad")
-print(f"Average grade for mohammad: {avg}")
+    if avg is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Student not found or no grades available"
+        )
+
+    return {
+        "name": data.name,
+        "average": avg
+    }
+
 
 
 def class_average(student):
@@ -46,11 +80,26 @@ def class_average(student):
             average_list.append(avg)
         return sum(average_list) / len(average_list)
     except (KeyError, ZeroDivisionError):
-        print("Student not found or no grades available.")
+        return None
+
   
+@app.get("/class_average")
+def get_class_average():
+    avg = class_average(student)
+
+    if avg is None:
+        raise HTTPException(
+            status_code=404,
+            detail="No students or grades available"
+        )
+
+    return {
+        "class_average": avg
+    }
+
 
  
-print(f"Class average for all students: {class_average(student)}")
+
 
 
 def printtopstudent(student, average_grades):
@@ -60,20 +109,33 @@ def printtopstudent(student, average_grades):
     return top_student, average_grades[top_student]
 
 
-top_student, top_average = printtopstudent(student, average_grades)
-print(f"Top student: {top_student} with an average grade of {top_average}")
+@app.get("/top_student")
+def get_top_student():
+    top_student, top_average = printtopstudent(student, average_grades)
+    return {
+        "top_student": top_student,
+        "average": top_average
+    }
+
+
+
+
+
 
 
 def remove_student(student, name):
     if name in student:
         del student[name]
-        print(f"{name} has been removed from the student list.")
+       
+
+@app.delete("/remove_student/{name}", status_code=204)
+def delete_student(name: str):
+    if name in student:
+        remove_student(student, name)
+        return {"message": f"{name} has been removed from the student list."}
     else:
-        print(f"{name} is not in the student list.")
+        raise HTTPException(status_code=404, detail="Student not found")
 
-
-remove_student(student, "adam")
-print(student)
 
 
 def student_report(student):
@@ -87,8 +149,14 @@ def student_report(student):
 
 
 
+@app.get("/student_report/{name}")
+def get_student_report(name: str):
+    if name in student:
+        report = student_report(student)
+        return {"report": report}
+    else:
+        raise HTTPException(status_code=404, detail="Student not found")
 
-print(student_report(student))
 
 
 
@@ -103,10 +171,11 @@ def sorted_students(student):
 
     return sorted_list  
 
-# Return only the student names in sorted order
+@app.get("/sorted_students")
+def get_sorted_students():
+    sorted_list = sorted_students(student)
+    return [{"name": name, "grades": grades, "average": sum(grades) / len(grades)} for name, grades in sorted_list]
 
-sorted_list = sorted_students(student)
-print("Students sorted by average grade (highest to lowest): {}".format([name for name, grades in sorted_list]))
 
 
 
@@ -127,8 +196,7 @@ def letter_grade(score) :
 
 
 
-letter=letter_grade(-50)
-print(f"The letter grade for the score  is: {letter}")
+
     
           
 
@@ -141,7 +209,7 @@ print(f"The letter grade for the score  is: {letter}")
 
 
 
-print(json.dumps(student))
+
 
 with open("student.json", "w") as f:
 
@@ -153,7 +221,7 @@ with open("student.json", "r") as f:
 
     loaded_student = json.load(f)
 
-print(loaded_student)
+
 
 
 
@@ -178,12 +246,6 @@ response = {
     ]
 
 }
-print(response["choices"][0]["message"]["role"])
-print(response["choices"][0]["message"]["role2"])
-print(response["choices"][0]["message"]["role2"][0:3])
-print(response["choices"][0]["message"]["content"])
-
-print(json.dumps(response))
 
 
 
