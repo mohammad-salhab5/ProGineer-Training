@@ -201,6 +201,7 @@ response = {
 }
 print(response["choices"][0]["message"]["role"])
 print(response["choices"][0]["message"]["content"])
+
 print(response["choices"][1]["message2"]["role"])
 print(response["choices"][1]["message2"]["content"])
 
