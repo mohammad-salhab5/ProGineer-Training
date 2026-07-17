@@ -106,18 +106,18 @@ class StudentService:
     def letter_grade(self, score):
 
         if score < 0 or score > 100:
-            return {"letter": "Invalid"}
+            return {"Invalid score. Please enter a score between 0 and 100."}
 
         if score >= 90:
-            return {"letter": "A"}
-        elif score >= 80:
-            return {"letter": "B"}
-        elif score >= 70:
-            return {"letter": "C"}
-        elif score >= 60:
-            return {"letter": "D"}
+            return {"A"}
+        elif score >= 80 and score <= 89:
+            return {"B"}
+        elif score >= 70 and score <= 79:
+            return {"C"}
+        elif score >= 60 and score <= 69:
+            return {"D"}
         else:
-            return {"letter": "F"}
+            return {"F"}
 
     def save(self):
 
