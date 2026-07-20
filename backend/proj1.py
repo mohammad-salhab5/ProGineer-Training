@@ -1,7 +1,7 @@
 from os import name, stat
 import json
-from fastapi import FastAPI
-from fastapi import HTTPException
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from service import (
     student,
@@ -17,8 +17,8 @@ from service import (
 )
 
 
-student={}
-average_grades={}
+
+
 
 from pydantic import BaseModel
 
@@ -29,6 +29,14 @@ class Grade(BaseModel):
 
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # للتطوير
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/students")
 def get_students():
