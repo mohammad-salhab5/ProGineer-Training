@@ -18,7 +18,7 @@ class StudentService:
         if 0 <= grade <= 100:
             self.students[name].append(grade)
             return {"message": "Grade added successfully"}
-
+    
         return {"error": "Grade must be between 0 and 100"}
 
     def calculate_average(self, name):
@@ -171,10 +171,6 @@ def report(name: str):
 def sort_students():
     return service.sort_average()
 
-
-@app.get("/letter/{score}")
-def letter(score: float):
-    return service.letter_grade(score)
 
 
 @app.post("/save")
