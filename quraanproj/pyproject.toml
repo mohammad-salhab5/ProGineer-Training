@@ -1,0 +1,17 @@
+[project]
+name = "myenvs"
+version = "2.4.1"
+description = ""
+authors = [
+    {name = "mohammadsalhab"}
+]
+license = "admin"
+requires-python = ">=3.14"
+dependencies = [
+    "sentence-transformers (>=5.6.1,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
