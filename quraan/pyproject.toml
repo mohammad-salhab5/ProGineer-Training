@@ -1,0 +1,17 @@
+[project]
+name = "myenvs"
+version = "2.4.1"
+description = ""
+authors = [
+    {name = "mohammadtawayha",email = "202303534@bethlehem.edu"}
+]
+license = "admin"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi (>=0.140.7,<0.141.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
