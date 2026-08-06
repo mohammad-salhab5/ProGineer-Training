@@ -19,3 +19,5 @@ if __name__ == "__main__":
     embeddings = embed_verses(verses)
 
     print("Shape:", embeddings.shape)
+    print("Embedding dimension:", len(embeddings[0]))
+print("First 5 values:", embeddings[0][:5])
