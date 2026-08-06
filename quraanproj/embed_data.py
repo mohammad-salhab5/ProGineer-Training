@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 
 from load_data import load_quran
 
-model = SentenceTransformer("intfloat/multilingual-e5-small")
+model = SentenceTransformer("BAAI/bge-m3")
 
 def embed_verses(verses):
 

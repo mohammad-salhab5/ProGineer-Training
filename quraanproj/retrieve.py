@@ -1,7 +1,9 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
+from text_utils import strip_diacritics
 
-model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+# نفس الموديل بالضبط المستخدم في build_db.py
+model = SentenceTransformer("BAAI/bge-m3")
 
 client = chromadb.PersistentClient(path="./chroma_db")
 
@@ -11,8 +13,10 @@ print("Number of verses:", collection.count())
 
 
 def retrieve_verses(question, top_k=5):
+    cleaned_question = strip_diacritics(question)
+
     query_embedding = model.encode(
-        [f"query: {question}"],
+        [cleaned_question],
         normalize_embeddings=True
     ).tolist()
 
@@ -35,7 +39,7 @@ def retrieve_verses(question, top_k=5):
 
 
 if __name__ == "__main__":
-    question = ""
+    question = "الصبر"
 
     results = retrieve_verses(question)
 

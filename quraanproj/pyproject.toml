@@ -6,7 +6,7 @@ authors = [
     {name = "mohammadsalhab"}
 ]
 license = "admin"
-requires-python = ">=3.14"
+requires-python = ">=3.12.10"
 dependencies = [
     "sentence-transformers (>=5.6.1,<6.0.0)",
     "chromadb (>=1.5.9,<2.0.0)",
