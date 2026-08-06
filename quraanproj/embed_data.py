@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 
 from load_data import load_quran
 
-model = SentenceTransformer("intfloat/multilingual-e5-small")
+model = SentenceTransformer("BAAI/bge-m3")
 
 def embed_verses(verses):
 
@@ -19,3 +19,5 @@ if __name__ == "__main__":
     embeddings = embed_verses(verses)
 
     print("Shape:", embeddings.shape)
+    print("Embedding dimension:", len(embeddings[0]))
+print("First 5 values:", embeddings[0][:5])
