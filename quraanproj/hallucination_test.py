@@ -1,8 +1,10 @@
 from groq import Groq
-
+from dotenv import load_dotenv
 import os
 
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+load_dotenv()
+
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 question = "How many times does the word 'جبريل' (patience) appear in Surah Al-Baqarah specifically?"
 

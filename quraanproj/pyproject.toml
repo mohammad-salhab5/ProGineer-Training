@@ -5,15 +5,19 @@ description = ""
 authors = [
     {name = "mohammadsalhab"}
 ]
-license = "admin"
-requires-python = ">=3.12.10"
+license = {text = "admin"}
+requires-python = ">=3.12.10,<3.14"
 dependencies = [
     "sentence-transformers (>=5.6.1,<6.0.0)",
     "chromadb (>=1.5.9,<2.0.0)",
     "groq (>=1.6.0,<2.0.0)",
-    "streamlit (>=1.61.1,<2.0.0)"
+    "streamlit (>=1.61.1,<2.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "torchvision (>=0.28.0,<0.29.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

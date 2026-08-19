@@ -1,19 +1,28 @@
 import os
 
 from groq import Groq
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY")
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 response = client.chat.completions.create(
-    model="openai/gpt-oss-120b",
+    model="openai/gpt-oss-20b",
     messages=[
         {
             "role": "user",
-            "content": "what is your name?"
+            "content": """
+حوّل هذا السؤال إلى كلمات ومفاهيم للبحث في القرآن فقط:
+
+ماهو الشيء الذي فقده موسى وكان فقدانه علامة على مكان لقائه بالخضر؟
+"""
         }
-    ]
+    ],
+    temperature=0
 )
 
-print(response.choices[0].message.content)
+print(response)

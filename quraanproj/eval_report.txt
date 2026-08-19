@@ -1,0 +1,1008 @@
+(الأعراف, 116): قَالَ أَلۡقُواْۖ فَلَمَّآ أَلۡقَوۡاْ سَحَرُوٓاْ أَعۡيُنَ ٱلنَّاسِ وَٱسۡتَرۡهَبُوهُمۡ وَجَآءُو بِسِحۡرٍ عَظِيمٖ
+
+--- FINAL ANSWER ---
+لا توجد في الآيات المرفقة أي إشارة إلى معجزة “اليد البيضاء” لموسى. لذلك لا يمكنني تقديم إجابة مستندة إلى نصوصٍ قرآنية محددة حول هذا الموضوع.
+
+--- FINAL VERSES USED ---
+1. Taha 20:17 (surah_ar: طه, ayah: 17) | final_score: 0.5003 | semantic: 0.0014 | keyword: 0.0 | source: dense
+2. Ash-Shu'ara 26:46 (surah_ar: الشعراء, ayah: 46) | final_score: 0.5001 | semantic: 0.0007 | keyword: 0.0 | source: dense
+3. Taha 20:18 (surah_ar: طه, ayah: 18) | final_score: 0.5001 | semantic: 0.0003 | keyword: 0.0 | source: dense
+4. Al-A'raf 7:118 (surah_ar: الأعراف, ayah: 118) | final_score: 0.5001 | semantic: 0.0003 | keyword: 0.0 | source: dense
+5. Taha 20:23 (surah_ar: طه, ayah: 23) | final_score: 0.5 | semantic: 0.0 | keyword: 0.0 | source: dense
+6. Al-A'raf 7:117 (surah_ar: الأعراف, ayah: 117) | final_score: 0.4908 | semantic: 0.004 | keyword: 0.0 | source: dense
+7. An-Naml 27:10 (surah_ar: النمل, ayah: 10) | final_score: 0.4902 | semantic: 0.0012 | keyword: 0.0 | source: dense
+8. Al-A'raf 7:116 (surah_ar: الأعراف, ayah: 116) | final_score: 0.4901 | semantic: 0.0007 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #9 | سؤال مفهوم عام بدون شخصية محددة
+======================================================================
+السؤال: ما هو جزاء الصابرين في القرآن؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{"entities":[],"concepts":["الصبر","جزاء الصابرين","أجر الصابرين","ثواب الصابرين","صبر في القرآن"],"search_queries":["جزاء الصابرين","أجر الصابرين","ثواب الصابرين","الصبر في القرآن","صابرين ومكافأة"]}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+ما هو جزاء الصابرين في القرآن؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+[]
+
+Concepts:
+['الصبر', 'جزاء الصابرين', 'أجر الصابرين', 'ثواب الصابرين', 'صبر في القرآن']
+
+Search Queries:
+1. جزاء الصابرين
+2. أجر الصابرين
+3. ثواب الصابرين
+4. الصبر في القرآن
+5. صابرين ومكافأة
+6. ما هو جزاء الصابرين في القرآن؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 40
+
+=== ALL CANDIDATES ===
+1 | Hud 11:12 | source: dense | distance: 0.4102 | keyword: 0.0 | query_hits: 3
+2 | Al-Ma'un 107:5 | source: dense | distance: 0.4656 | keyword: 0.0 | query_hits: 2
+3 | Al-Ma'idah 5:38 | source: dense | distance: 0.4797 | keyword: 0.0 | query_hits: 2
+4 | An-Naba 78:26 | source: dense | distance: 0.4806 | keyword: 0.0 | query_hits: 2
+5 | Al-Anfal 8:67 | source: dense | distance: 0.4826 | keyword: 0.0 | query_hits: 2
+6 | Al-Mujadila 58:16 | source: dense | distance: 0.4829 | keyword: 0.0 | query_hits: 2
+7 | Ali 'Imran 3:137 | source: dense | distance: 0.4834 | keyword: 0.0 | query_hits: 2
+8 | Ibrahim 14:50 | source: dense | distance: 0.4851 | keyword: 0.0 | query_hits: 2
+9 | Al-Insan 76:22 | source: dense | distance: 0.4855 | keyword: 0.0 | query_hits: 2
+10 | As-Saffat 37:176 | source: dense | distance: 0.4857 | keyword: 0.0 | query_hits: 2
+11 | Fussilat 41:28 | source: dense | distance: 0.492 | keyword: 0.0 | query_hits: 2
+12 | An-Nisa 4:68 | source: dense | distance: 0.4994 | keyword: 0.0 | query_hits: 2
+13 | Ya-Sin 36:58 | source: dense | distance: 0.5003 | keyword: 0.0 | query_hits: 2
+14 | As-Saffat 37:45 | source: dense | distance: 0.5012 | keyword: 0.0 | query_hits: 2
+15 | Al-'Ankabut 29:59 | source: dense | distance: 0.509 | keyword: 0.0 | query_hits: 2
+16 | An-Nahl 16:128 | source: dense | distance: 0.3488 | keyword: 0.0 | query_hits: 1
+17 | Al-Ma'arij 70:6 | source: dense | distance: 0.3877 | keyword: 0.0 | query_hits: 1
+18 | An-Nahl 16:127 | source: dense | distance: 0.396 | keyword: 0.0 | query_hits: 1
+19 | Al-Muddaththir 74:7 | source: dense | distance: 0.3988 | keyword: 0.0 | query_hits: 1
+20 | Hud 11:116 | source: dense | distance: 0.4026 | keyword: 0.0 | query_hits: 1
+21 | Al-Muddaththir 74:6 | source: dense | distance: 0.4051 | keyword: 0.0 | query_hits: 1
+22 | Al-Muddaththir 74:8 | source: dense | distance: 0.4051 | keyword: 0.0 | query_hits: 1
+23 | Al-Qalam 68:49 | source: dense | distance: 0.4069 | keyword: 0.0 | query_hits: 1
+24 | Al-Kahf 18:69 | source: dense | distance: 0.4128 | keyword: 0.0 | query_hits: 1
+25 | Ghafir 40:55 | source: dense | distance: 0.4152 | keyword: 0.0 | query_hits: 1
+26 | Al-Insan 76:24 | source: dense | distance: 0.4177 | keyword: 0.0 | query_hits: 1
+27 | An-Naba 78:27 | source: dense | distance: 0.4597 | keyword: 0.0 | query_hits: 1
+28 | Ali 'Imran 3:88 | source: dense | distance: 0.4729 | keyword: 0.0 | query_hits: 1
+29 | Al-Qamar 54:39 | source: dense | distance: 0.4761 | keyword: 0.0 | query_hits: 1
+30 | As-Saffat 37:67 | source: dense | distance: 0.4794 | keyword: 0.0 | query_hits: 1
+31 | Yunus 10:28 | source: dense | distance: 0.4891 | keyword: 0.0 | query_hits: 1
+32 | At-Tur 52:1 | source: dense | distance: 0.4921 | keyword: 0.0 | query_hits: 1
+33 | Al-A'raf 7:165 | source: dense | distance: 0.4923 | keyword: 0.0 | query_hits: 1
+34 | Ash-Shuraa 42:38 | source: dense | distance: 0.4928 | keyword: 0.0 | query_hits: 1
+35 | Al-A'raf 7:166 | source: dense | distance: 0.4935 | keyword: 0.0 | query_hits: 1
+36 | At-Tur 52:19 | source: dense | distance: 0.4939 | keyword: 0.0 | query_hits: 1
+37 | Al-Isra 17:64 | source: dense | distance: 0.497 | keyword: 0.0 | query_hits: 1
+38 | Ali 'Imran 3:149 | source: dense | distance: 0.4974 | keyword: 0.0 | query_hits: 1
+39 | Al-Mu'minun 23:110 | source: dense | distance: 0.4979 | keyword: 0.0 | query_hits: 1
+40 | Yusuf 12:26 | source: dense | distance: 0.4983 | keyword: 0.0 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Hud 11:12 | semantic: 0.0007 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4601
+2 | Al-'Ankabut 29:59 | semantic: 0.0191 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4338
+3 | Al-Mujadila 58:16 | semantic: 0.0067 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4313
+4 | Al-Ma'idah 5:38 | semantic: 0.0062 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4312
+5 | An-Naba 78:26 | semantic: 0.004 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4308
+6 | Fussilat 41:28 | semantic: 0.0038 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4308
+7 | Ibrahim 14:50 | semantic: 0.0024 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4305
+8 | Al-Ma'un 107:5 | semantic: 0.002 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4304
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(هود, 12): فَلَعَلَّكَ تَارِكُۢ بَعۡضَ مَا يُوحَىٰٓ إِلَيۡكَ وَضَآئِقُۢ بِهِۦ صَدۡرُكَ أَن يَقُولُواْ لَوۡلَآ أُنزِلَ عَلَيۡهِ كَنزٌ أَوۡ جَآءَ مَعَهُۥ مَلَكٌۚ إِنَّمَآ أَنتَ نَذِيرٞۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ وَكِيلٌ
+(العنكبوت, 59): ٱلَّذِينَ صَبَرُواْ وَعَلَىٰ رَبِّهِمۡ يَتَوَكَّلُونَ
+(المجادلة, 16): ٱتَّخَذُوٓاْ أَيۡمَٰنَهُمۡ جُنَّةٗ فَصَدُّواْ عَن سَبِيلِ ٱللَّهِ فَلَهُمۡ عَذَابٞ مُّهِينٞ
+(المائدة, 38): وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقۡطَعُوٓاْ أَيۡدِيَهُمَا جَزَآءَۢ بِمَا كَسَبَا نَكَٰلٗا مِّنَ ٱللَّهِۗ وَٱللَّهُ عَزِيزٌ حَكِيمٞ
+(النبإ, 26): جَزَآءٗ وِفَاقًا
+(فصلت, 28): ذَٰلِكَ جَزَآءُ أَعۡدَآءِ ٱللَّهِ ٱلنَّارُۖ لَهُمۡ فِيهَا دَارُ ٱلۡخُلۡدِ جَزَآءَۢ بِمَا كَانُواْ بِـَٔايَٰتِنَا يَجۡحَدُونَ
+(ابراهيم, 50): سَرَابِيلُهُم مِّن قَطِرَانٖ وَتَغۡشَىٰ وُجُوهَهُمُ ٱلنَّارُ
+(الماعون, 5): ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ
+
+--- FINAL ANSWER ---
+وفقاً للآيات التي أُرفِقَت، يُوصف الصابرون في القرآن بالثقة والاعتماد على الله، كما جاء في قوله تعالى:  
+
+> **«الَّذِينَ صَبَرُواْ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ»** (العنكبوت، 59)
+
+هذه الآية تُظهر أن جزاء الصابرين هو الثقة والاعتماد على ربهم، وليس ذكرًا صريحًا لمكافأة مادية أو مادية أخرى في هذه الآيات. إذا كنت ترغب في معرفة المزيد عن مكافأة الصابرين، يُفضَّل الاطلاع على آيات أخرى في القرآن أو استشارة مصدر موثوق.
+
+--- FINAL VERSES USED ---
+1. Hud 11:12 (surah_ar: هود, ayah: 12) | final_score: 0.4601 | semantic: 0.0007 | keyword: 0.0 | source: dense
+2. Al-'Ankabut 29:59 (surah_ar: العنكبوت, ayah: 59) | final_score: 0.4338 | semantic: 0.0191 | keyword: 0.0 | source: dense
+3. Al-Mujadila 58:16 (surah_ar: المجادلة, ayah: 16) | final_score: 0.4313 | semantic: 0.0067 | keyword: 0.0 | source: dense
+4. Al-Ma'idah 5:38 (surah_ar: المائدة, ayah: 38) | final_score: 0.4312 | semantic: 0.0062 | keyword: 0.0 | source: dense
+5. An-Naba 78:26 (surah_ar: النبإ, ayah: 26) | final_score: 0.4308 | semantic: 0.004 | keyword: 0.0 | source: dense
+6. Fussilat 41:28 (surah_ar: فصلت, ayah: 28) | final_score: 0.4308 | semantic: 0.0038 | keyword: 0.0 | source: dense
+7. Ibrahim 14:50 (surah_ar: ابراهيم, ayah: 50) | final_score: 0.4305 | semantic: 0.0024 | keyword: 0.0 | source: dense
+8. Al-Ma'un 107:5 (surah_ar: الماعون, ayah: 5) | final_score: 0.4304 | semantic: 0.002 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #10 | سؤال قصة تحتاج تسلسل زمني
+======================================================================
+السؤال: كيف بدأت قصة يوسف مع إخوته؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{
+  "entities": ["يوسف"],
+  "concepts": [
+    "قصة يوسف",
+    "إخوته",
+    "خيانة",
+    "حيازة",
+    "الغيرة",
+    "الطُرُق",
+    "الخطاب",
+    "التحذير"
+  ],
+  "search_queries": [
+    "يوسف وإخوته",
+    "خيانة إخوته ليوسف",
+    "قصة يوسف مع الإخوة",
+    "الغيرة بين يوسف وإخوته",
+    "حيازة يوسف من قبل الإخوة"
+  ]
+}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+كيف بدأت قصة يوسف مع إخوته؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+['يوسف']
+
+Concepts:
+['قصة يوسف', 'إخوته', 'خيانة', 'حيازة', 'الغيرة', 'الطُرُق', 'الخطاب', 'التحذير']
+
+Search Queries:
+1. يوسف وإخوته
+2. خيانة إخوته ليوسف
+3. قصة يوسف مع الإخوة
+4. الغيرة بين يوسف وإخوته
+5. حيازة يوسف من قبل الإخوة
+6. كيف بدأت قصة يوسف مع إخوته؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 48
+
+=== ALL CANDIDATES ===
+1 | Yusuf 12:8 | source: hybrid | distance: 0.0 | keyword: 0.7 | query_hits: 8
+2 | Yusuf 12:77 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 6
+3 | Yusuf 12:59 | source: dense | distance: 0.3654 | keyword: 0.0 | query_hits: 6
+4 | Yusuf 12:70 | source: dense | distance: 0.3833 | keyword: 0.0 | query_hits: 6
+5 | Yusuf 12:57 | source: dense | distance: 0.384 | keyword: 0.0 | query_hits: 6
+6 | Yusuf 12:90 | source: dense | distance: 0.3881 | keyword: 0.0 | query_hits: 6
+7 | Yusuf 12:6 | source: hybrid | distance: 0.0 | keyword: 0.5 | query_hits: 5
+8 | Yusuf 12:58 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 5
+9 | Yusuf 12:91 | source: dense | distance: 0.4096 | keyword: 0.0 | query_hits: 5
+10 | Yusuf 12:4 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 4
+11 | Yusuf 12:9 | source: hybrid | distance: 0.0 | keyword: 0.5 | query_hits: 4
+12 | Yusuf 12:78 | source: dense | distance: 0.3708 | keyword: 0.0 | query_hits: 4
+13 | Yusuf 12:76 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 3
+14 | Yusuf 12:69 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 3
+15 | Yusuf 12:3 | source: dense | distance: 0.4043 | keyword: 0.0 | query_hits: 3
+16 | Yusuf 12:12 | source: dense | distance: 0.4283 | keyword: 0.0 | query_hits: 2
+17 | Yusuf 12:85 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 1
+18 | Yusuf 12:11 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 1
+19 | Yusuf 12:10 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 1
+20 | Yusuf 12:84 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 1
+21 | Yusuf 12:5 | source: hybrid | distance: 0.0 | keyword: 0.7 | query_hits: 1
+22 | Yusuf 12:68 | source: dense | distance: 0.3866 | keyword: 0.0 | query_hits: 1
+23 | Ash-Shu'ara 26:161 | source: dense | distance: 0.4107 | keyword: 0.0 | query_hits: 1
+24 | Ash-Shu'ara 26:160 | source: dense | distance: 0.4242 | keyword: 0.0 | query_hits: 1
+25 | Yusuf 12:16 | source: dense | distance: 0.4457 | keyword: 0.0 | query_hits: 1
+26 | Yusuf 12:88 | source: dense | distance: 0.4492 | keyword: 0.0 | query_hits: 1
+27 | Yusuf 12:30 | source: dense | distance: 0.4672 | keyword: 0.0 | query_hits: 1
+28 | Al-Qiyamah 75:33 | source: dense | distance: 0.4742 | keyword: 0.0 | query_hits: 1
+29 | As-Saffat 37:69 | source: dense | distance: 0.4789 | keyword: 0.0 | query_hits: 1
+30 | Ash-Shu'ara 26:141 | source: dense | distance: 0.4811 | keyword: 0.0 | query_hits: 1
+31 | Ash-Shu'ara 26:142 | source: dense | distance: 0.4818 | keyword: 0.0 | query_hits: 1
+32 | Ash-Shams 91:11 | source: dense | distance: 0.4829 | keyword: 0.0 | query_hits: 1
+33 | Al-Layl 92:8 | source: dense | distance: 0.484 | keyword: 0.0 | query_hits: 1
+34 | As-Saffat 37:70 | source: dense | distance: 0.4932 | keyword: 0.0 | query_hits: 1
+35 | Ash-Shu'ara 26:162 | source: dense | distance: 0.4939 | keyword: 0.0 | query_hits: 1
+36 | Ash-Shu'ara 26:105 | source: dense | distance: 0.4951 | keyword: 0.0 | query_hits: 1
+37 | Al-An'am 6:84 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+38 | Yusuf 12:7 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+39 | Yusuf 12:17 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+40 | Yusuf 12:21 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+41 | Yusuf 12:29 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+42 | Yusuf 12:46 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+43 | Yusuf 12:51 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+44 | Yusuf 12:56 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+45 | Yusuf 12:80 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+46 | Yusuf 12:87 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+47 | Al-An'am 6:85 | source: narrative | distance: 0.0 | keyword: 0.7 | query_hits: 1
+48 | Al-An'am 6:86 | source: narrative | distance: 0.0 | keyword: 0.5 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Yusuf 12:76 | semantic: 0.5931 | keyword: 0.75 | query_hits: 3 | source: hybrid | final: 0.5983
+2 | Yusuf 12:58 | semantic: 0.158 | keyword: 0.75 | query_hits: 5 | source: hybrid | final: 0.5546
+3 | Yusuf 12:8 | semantic: 0.0911 | keyword: 0.7 | query_hits: 8 | source: hybrid | final: 0.5398
+4 | Yusuf 12:77 | semantic: 0.048 | keyword: 0.75 | query_hits: 6 | source: hybrid | final: 0.5327
+5 | Yusuf 12:69 | semantic: 0.2226 | keyword: 0.75 | query_hits: 3 | source: hybrid | final: 0.5274
+6 | Yusuf 12:4 | semantic: 0.0332 | keyword: 0.75 | query_hits: 4 | source: hybrid | final: 0.5197
+7 | Yusuf 12:6 | semantic: 0.0011 | keyword: 0.5 | query_hits: 5 | source: hybrid | final: 0.5156
+8 | Yusuf 12:90 | semantic: 0.0441 | keyword: 0.0 | query_hits: 6 | source: dense | final: 0.5088
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(يوسف, 76): فَبَدَأَ بِأَوۡعِيَتِهِمۡ قَبۡلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسۡتَخۡرَجَهَا مِن وِعَآءِ أَخِيهِۚ كَذَٰلِكَ كِدۡنَا لِيُوسُفَۖ مَا كَانَ لِيَأۡخُذَ أَخَاهُ فِي دِينِ ٱلۡمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُۚ نَرۡفَعُ دَرَجَٰتٖ مَّن نَّشَآءُۗ وَفَوۡقَ كُلِّ ذِي عِلۡمٍ عَلِيمٞ
+(يوسف, 58): وَجَآءَ إِخۡوَةُ يُوسُفَ فَدَخَلُواْ عَلَيۡهِ فَعَرَفَهُمۡ وَهُمۡ لَهُۥ مُنكِرُونَ
+(يوسف, 8): إِذۡ قَالُواْ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحۡنُ عُصۡبَةٌ إِنَّ أَبَانَا لَفِي ضَلَٰلٖ مُّبِينٍ
+(يوسف, 77): ۞قَالُوٓاْ إِن يَسۡرِقۡ فَقَدۡ سَرَقَ أَخٞ لَّهُۥ مِن قَبۡلُۚ فَأَسَرَّهَا يُوسُفُ فِي نَفۡسِهِۦ وَلَمۡ يُبۡدِهَا لَهُمۡۚ قَالَ أَنتُمۡ شَرّٞ مَّكَانٗاۖ وَٱللَّهُ أَعۡلَمُ بِمَا تَصِفُونَ
+(يوسف, 69): وَلَمَّا دَخَلُواْ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيۡهِ أَخَاهُۖ قَالَ إِنِّيٓ أَنَا۠ أَخُوكَ فَلَا تَبۡتَئِسۡ بِمَا كَانُواْ يَعۡمَلُونَ
+(يوسف, 4): إِذۡ قَالَ يُوسُفُ لِأَبِيهِ يَـٰٓأَبَتِ إِنِّي رَأَيۡتُ أَحَدَ عَشَرَ كَوۡكَبٗا وَٱلشَّمۡسَ وَٱلۡقَمَرَ رَأَيۡتُهُمۡ لِي سَٰجِدِينَ
+(يوسف, 6): وَكَذَٰلِكَ يَجۡتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأۡوِيلِ ٱلۡأَحَادِيثِ وَيُتِمُّ نِعۡمَتَهُۥ عَلَيۡكَ وَعَلَىٰٓ ءَالِ يَعۡقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيۡكَ مِن قَبۡلُ إِبۡرَٰهِيمَ وَإِسۡحَٰقَۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٞ
+(يوسف, 90): قَالُوٓاْ أَءِنَّكَ لَأَنتَ يُوسُفُۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِيۖ قَدۡ مَنَّ ٱللَّهُ عَلَيۡنَآۖ إِنَّهُۥ مَن يَتَّقِ وَيَصۡبِرۡ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجۡرَ ٱلۡمُحۡسِنِينَ
+
+--- FINAL ANSWER ---
+قصة يوسف مع إخوته بدأت عندما كان يوسف في نعيمٍ من أُخوته، فحاولوا أن يسرقوه.  
+
+1. **التحذير من الخيانة**  
+   عندما دخلوا على يوسف، قالوا له:  
+   *«إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُ مِنْ قَبْلُ»* (يوسف، 77).  
+   هذا يدل على أن إخوته كانوا يخططون لسرقة يوسف، لأنهم كانوا يظنون أنه أكثر قيمة من أصدقائهم.
+
+2. **التحفظ على سرقة يوسف**  
+   رغم أن يوسف كان في حُبٍّ من إخوته، فقد أخبرهم أن سرقته سيُعَدّ خطأً، فقرروا إخفاء ما حدث:  
+   *«فَأَسَرَّهَا يُوسُفُ فِي نَفْسِهِ وَلا يُبْدِهَا لَهُم»* (يوسف، 77).  
+   أي أن يوسف لم يُخبرهم بما حدث، بل احتفظ به لنفسه، وهو ما يُظهر أن القصة بدأت بالتحفظ على سرقة يوسف.
+
+3. **التحذير من الخيانة**  
+   بعد ذلك، عندما دخلوا على يوسف، قال له:  
+   *«إِنِّي أَنَا أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا يَعْمَلُونَ»* (يوسف، 69).  
+   هذا يُظهر أن يوسف كان يحاول تهدئة إخوته، لكن القصة بدأت بالفعل في لحظة الخيانة والسرقة المحتملة.
+
+إذن، بدأت قصة يوسف مع إخوته عندما حاولوا سرقته، وقرر يوسف أن يخفى ما حدث، ثم حاول تهدئة إخوته بعد ذلك. هذه الأحداث تُظهر بداية الصراع بين يوسف وإخوته.
+
+--- FINAL VERSES USED ---
+1. Yusuf 12:76 (surah_ar: يوسف, ayah: 76) | final_score: 0.5983 | semantic: 0.5931 | keyword: 0.75 | source: hybrid
+2. Yusuf 12:58 (surah_ar: يوسف, ayah: 58) | final_score: 0.5546 | semantic: 0.158 | keyword: 0.75 | source: hybrid
+3. Yusuf 12:8 (surah_ar: يوسف, ayah: 8) | final_score: 0.5398 | semantic: 0.0911 | keyword: 0.7 | source: hybrid
+4. Yusuf 12:77 (surah_ar: يوسف, ayah: 77) | final_score: 0.5327 | semantic: 0.048 | keyword: 0.75 | source: hybrid
+5. Yusuf 12:69 (surah_ar: يوسف, ayah: 69) | final_score: 0.5274 | semantic: 0.2226 | keyword: 0.75 | source: hybrid
+6. Yusuf 12:4 (surah_ar: يوسف, ayah: 4) | final_score: 0.5197 | semantic: 0.0332 | keyword: 0.75 | source: hybrid
+7. Yusuf 12:6 (surah_ar: يوسف, ayah: 6) | final_score: 0.5156 | semantic: 0.0011 | keyword: 0.5 | source: hybrid
+8. Yusuf 12:90 (surah_ar: يوسف, ayah: 90) | final_score: 0.5088 | semantic: 0.0441 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #11 | سؤال دقيق برقم / تفصيل
+======================================================================
+السؤال: كم عدد السنين التي لبثها أصحاب الكهف نائمين؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{
+  "entities": ["أصحاب الكهف"],
+  "concepts": [
+    "عدد السنين",
+    "النوم",
+    "الكهف"
+  ],
+  "search_queries": [
+    "أصحاب الكهف سنوات",
+    "عدد سنوات نوم أصحاب الكهف",
+    "مدة نوم أصحاب الكهف",
+    "أصحاب الكهف سنوات"
+  ]
+}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+كم عدد السنين التي لبثها أصحاب الكهف نائمين؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+['أصحاب الكهف']
+
+Concepts:
+['عدد السنين', 'النوم', 'الكهف']
+
+Search Queries:
+1. أصحاب الكهف سنوات
+2. عدد سنوات نوم أصحاب الكهف
+3. مدة نوم أصحاب الكهف
+4. كم عدد السنين التي لبثها أصحاب الكهف نائمين؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 40
+
+=== ALL CANDIDATES ===
+1 | Al-Kahf 18:26 | source: dense | distance: 0.4123 | keyword: 0.0 | query_hits: 6
+2 | Al-Kahf 18:25 | source: dense | distance: 0.4598 | keyword: 0.0 | query_hits: 6
+3 | Al-Kahf 18:24 | source: dense | distance: 0.4732 | keyword: 0.0 | query_hits: 6
+4 | Al-Hijr 15:13 | source: dense | distance: 0.4814 | keyword: 0.0 | query_hits: 4
+5 | Al-Qalam 68:19 | source: dense | distance: 0.493 | keyword: 0.0 | query_hits: 4
+6 | Al-Ma'arij 70:3 | source: dense | distance: 0.4985 | keyword: 0.0 | query_hits: 4
+7 | Al-Mu'minun 23:112 | source: dense | distance: 0.5175 | keyword: 0.0 | query_hits: 4
+8 | Al-Qalam 68:20 | source: dense | distance: 0.4984 | keyword: 0.0 | query_hits: 3
+9 | Ad-Dukhan 44:2 | source: dense | distance: 0.524 | keyword: 0.0 | query_hits: 3
+10 | Al-Kahf 18:12 | source: dense | distance: 0.4856 | keyword: 0.0 | query_hits: 2
+11 | Al-Hijr 15:14 | source: dense | distance: 0.4936 | keyword: 0.0 | query_hits: 2
+12 | Al-Muzzammil 73:1 | source: dense | distance: 0.5006 | keyword: 0.0 | query_hits: 2
+13 | Al-Mu'minun 23:113 | source: dense | distance: 0.506 | keyword: 0.0 | query_hits: 2
+14 | Al-Qadr 97:4 | source: dense | distance: 0.5146 | keyword: 0.0 | query_hits: 2
+15 | Al-Mutaffifin 83:26 | source: dense | distance: 0.5183 | keyword: 0.0 | query_hits: 2
+16 | Ad-Dukhan 44:26 | source: dense | distance: 0.5226 | keyword: 0.0 | query_hits: 2
+17 | At-Takwir 81:17 | source: dense | distance: 0.5248 | keyword: 0.0 | query_hits: 2
+18 | Al-Ma'idah 5:25 | source: dense | distance: 0.5265 | keyword: 0.0 | query_hits: 2
+19 | Al-Hijr 15:44 | source: dense | distance: 0.5356 | keyword: 0.0 | query_hits: 2
+20 | Al-Insan 76:13 | source: dense | distance: 0.5358 | keyword: 0.0 | query_hits: 2
+21 | Al-Mu'minun 23:111 | source: dense | distance: 0.5432 | keyword: 0.0 | query_hits: 2
+22 | Al-Muddaththir 74:39 | source: dense | distance: 0.5579 | keyword: 0.0 | query_hits: 2
+23 | Ash-Shu'ara 26:206 | source: dense | distance: 0.4878 | keyword: 0.0 | query_hits: 1
+24 | Ash-Shu'ara 26:205 | source: dense | distance: 0.4909 | keyword: 0.0 | query_hits: 1
+25 | Al-'Ankabut 29:14 | source: dense | distance: 0.4919 | keyword: 0.0 | query_hits: 1
+26 | Al-Ma'arij 70:5 | source: dense | distance: 0.4972 | keyword: 0.0 | query_hits: 1
+27 | Ash-Shu'ara 26:204 | source: dense | distance: 0.4999 | keyword: 0.0 | query_hits: 1
+28 | Al-Kahf 18:17 | source: dense | distance: 0.5046 | keyword: 0.0 | query_hits: 1
+29 | An-Naba 78:10 | source: dense | distance: 0.5107 | keyword: 0.0 | query_hits: 1
+30 | Al-Waqi'ah 56:17 | source: dense | distance: 0.5151 | keyword: 0.0 | query_hits: 1
+31 | Ya-Sin 36:74 | source: dense | distance: 0.5237 | keyword: 0.0 | query_hits: 1
+32 | At-Tur 52:41 | source: dense | distance: 0.5249 | keyword: 0.0 | query_hits: 1
+33 | At-Tur 52:38 | source: dense | distance: 0.5254 | keyword: 0.0 | query_hits: 1
+34 | Al-Anbya 21:101 | source: dense | distance: 0.5321 | keyword: 0.0 | query_hits: 1
+35 | Al-Kahf 18:16 | source: dense | distance: 0.5354 | keyword: 0.0 | query_hits: 1
+36 | Sad 38:10 | source: dense | distance: 0.5363 | keyword: 0.0 | query_hits: 1
+37 | Al-Qalam 68:46 | source: dense | distance: 0.5394 | keyword: 0.0 | query_hits: 1
+38 | Al-Muddaththir 74:49 | source: dense | distance: 0.5432 | keyword: 0.0 | query_hits: 1
+39 | Al-Mutaffifin 83:25 | source: dense | distance: 0.5442 | keyword: 0.0 | query_hits: 1
+40 | Luqman 31:5 | source: dense | distance: 0.5476 | keyword: 0.0 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Al-Kahf 18:25 | semantic: 0.4796 | keyword: 0.0 | query_hits: 6 | source: dense | final: 0.5941
+2 | Al-Kahf 18:26 | semantic: 0.0 | keyword: 0.0 | query_hits: 6 | source: dense | final: 0.5
+3 | Al-Kahf 18:24 | semantic: 0.0 | keyword: 0.0 | query_hits: 6 | source: dense | final: 0.5
+4 | Al-Mu'minun 23:112 | semantic: 0.008 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4916
+5 | Al-Hijr 15:13 | semantic: 0.003 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4906
+6 | Al-Qalam 68:19 | semantic: 0.0 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+7 | Al-Ma'arij 70:3 | semantic: 0.0 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+8 | Ad-Dukhan 44:2 | semantic: 0.0 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.46
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(الكهف, 25): وَلَبِثُواْ فِي كَهۡفِهِمۡ ثَلَٰثَ مِاْئَةٖ سِنِينَ وَٱزۡدَادُواْ تِسۡعٗا
+(الكهف, 26): قُلِ ٱللَّهُ أَعۡلَمُ بِمَا لَبِثُواْۖ لَهُۥ غَيۡبُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۖ أَبۡصِرۡ بِهِۦ وَأَسۡمِعۡۚ مَا لَهُم مِّن دُونِهِۦ مِن وَلِيّٖ وَلَا يُشۡرِكُ فِي حُكۡمِهِۦٓ أَحَدٗا
+(الكهف, 24): إِلَّآ أَن يَشَآءَ ٱللَّهُۚ وَٱذۡكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلۡ عَسَىٰٓ أَن يَهۡدِيَنِ رَبِّي لِأَقۡرَبَ مِنۡ هَٰذَا رَشَدٗا
+(المؤمنون, 112): قَٰلَ كَمۡ لَبِثۡتُمۡ فِي ٱلۡأَرۡضِ عَدَدَ سِنِينَ
+(الحجر, 13): لَا يُؤۡمِنُونَ بِهِۦ وَقَدۡ خَلَتۡ سُنَّةُ ٱلۡأَوَّلِينَ
+(القلم, 19): فَطَافَ عَلَيۡهَا طَآئِفٞ مِّن رَّبِّكَ وَهُمۡ نَآئِمُونَ
+(المعارج, 3): مِّنَ ٱللَّهِ ذِي ٱلۡمَعَارِجِ
+(الدخان, 2): وَٱلۡكِتَٰبِ ٱلۡمُبِينِ
+
+--- FINAL ANSWER ---
+أخبرك أن أصحاب الكهف لبثوا في الكهف **309 سنوات**.  
+
+هذا يخرج من الآيتين معاً:
+
+- (الكهف، 25): “وَلَبِثُوا فِي كَهْفِهِمْ ثَلَاثَ مِائَةٍ سِنِينَ وَزَدَادُوا تِسْعَةً”  
+- (الكهف، 26): يوضح أن الله هو الذي يعلم مدة إقامتهم، ما يؤكد أن الأرقام المذكورة هي الحقيقة.
+
+إذن إجمالي مدة نومهم هو 300 سنة + 9 سنوات = **309 سنوات**.
+
+--- FINAL VERSES USED ---
+1. Al-Kahf 18:25 (surah_ar: الكهف, ayah: 25) | final_score: 0.5941 | semantic: 0.4796 | keyword: 0.0 | source: dense
+2. Al-Kahf 18:26 (surah_ar: الكهف, ayah: 26) | final_score: 0.5 | semantic: 0.0 | keyword: 0.0 | source: dense
+3. Al-Kahf 18:24 (surah_ar: الكهف, ayah: 24) | final_score: 0.5 | semantic: 0.0 | keyword: 0.0 | source: dense
+4. Al-Mu'minun 23:112 (surah_ar: المؤمنون, ayah: 112) | final_score: 0.4916 | semantic: 0.008 | keyword: 0.0 | source: dense
+5. Al-Hijr 15:13 (surah_ar: الحجر, ayah: 13) | final_score: 0.4906 | semantic: 0.003 | keyword: 0.0 | source: dense
+6. Al-Qalam 68:19 (surah_ar: القلم, ayah: 19) | final_score: 0.49 | semantic: 0.0 | keyword: 0.0 | source: dense
+7. Al-Ma'arij 70:3 (surah_ar: المعارج, ayah: 3) | final_score: 0.49 | semantic: 0.0 | keyword: 0.0 | source: dense
+8. Ad-Dukhan 44:2 (surah_ar: الدخان, ayah: 2) | final_score: 0.46 | semantic: 0.0 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #12 | مصطلح فقهي/تفسيري مجرد
+======================================================================
+السؤال: ما حكم الصبر على الابتلاء في القرآن؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{
+  "entities": [],
+  "concepts": [
+    "الصبر",
+    "الابتلاء",
+    "حكم",
+    "آيات",
+    "مكافأة الصابرين"
+  ],
+  "search_queries": [
+    "الصبر على الابتلاء",
+    "حكم الصبر في القرآن",
+    "آيات الصبر على الابتلاء",
+    "مكافأة الصابرين",
+    "صبر على الابتلاء"
+  ]
+}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+ما حكم الصبر على الابتلاء في القرآن؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+[]
+
+Concepts:
+['الصبر', 'الابتلاء', 'حكم', 'آيات', 'مكافأة الصابرين']
+
+Search Queries:
+1. الصبر على الابتلاء
+2. حكم الصبر في القرآن
+3. آيات الصبر على الابتلاء
+4. مكافأة الصابرين
+5. صبر على الابتلاء
+6. ما حكم الصبر على الابتلاء في القرآن؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 39
+
+=== ALL CANDIDATES ===
+1 | An-Nahl 16:128 | source: dense | distance: 0.36 | keyword: 0.0 | query_hits: 5
+2 | Al-Qalam 68:49 | source: dense | distance: 0.392 | keyword: 0.0 | query_hits: 5
+3 | Al-Muddaththir 74:6 | source: dense | distance: 0.3949 | keyword: 0.0 | query_hits: 4
+4 | Al-Kahf 18:69 | source: dense | distance: 0.3981 | keyword: 0.0 | query_hits: 4
+5 | Al-Ma'arij 70:6 | source: dense | distance: 0.3997 | keyword: 0.0 | query_hits: 4
+6 | Al-Muddaththir 74:7 | source: dense | distance: 0.3716 | keyword: 0.0 | query_hits: 3
+7 | Hud 11:12 | source: dense | distance: 0.3908 | keyword: 0.0 | query_hits: 3
+8 | Al-Muddaththir 74:8 | source: dense | distance: 0.4124 | keyword: 0.0 | query_hits: 3
+9 | Ar-Rum 30:60 | source: dense | distance: 0.4512 | keyword: 0.0 | query_hits: 3
+10 | An-Nahl 16:127 | source: dense | distance: 0.3798 | keyword: 0.0 | query_hits: 2
+11 | Hud 11:116 | source: dense | distance: 0.4024 | keyword: 0.0 | query_hits: 2
+12 | Al-Kahf 18:68 | source: dense | distance: 0.4099 | keyword: 0.0 | query_hits: 2
+13 | Al-Muddaththir 74:1 | source: dense | distance: 0.414 | keyword: 0.0 | query_hits: 2
+14 | Al-Insan 76:23 | source: dense | distance: 0.4198 | keyword: 0.0 | query_hits: 2
+15 | Al-Muddaththir 74:3 | source: dense | distance: 0.4276 | keyword: 0.0 | query_hits: 2
+16 | Luqman 31:18 | source: dense | distance: 0.4648 | keyword: 0.0 | query_hits: 2
+17 | Al-Anfal 8:67 | source: dense | distance: 0.4782 | keyword: 0.0 | query_hits: 2
+18 | Al-Furqan 25:71 | source: dense | distance: 0.4197 | keyword: 0.0 | query_hits: 1
+19 | Al-Muddaththir 74:2 | source: dense | distance: 0.4353 | keyword: 0.0 | query_hits: 1
+20 | Ad-Dukhan 44:59 | source: dense | distance: 0.4478 | keyword: 0.0 | query_hits: 1
+21 | Al-Muzzammil 73:1 | source: dense | distance: 0.4491 | keyword: 0.0 | query_hits: 1
+22 | Al-Baqarah 2:46 | source: dense | distance: 0.45 | keyword: 0.0 | query_hits: 1
+23 | Al-Insan 76:24 | source: dense | distance: 0.4576 | keyword: 0.0 | query_hits: 1
+24 | Ghafir 40:55 | source: dense | distance: 0.4604 | keyword: 0.0 | query_hits: 1
+25 | Al-Insan 76:25 | source: dense | distance: 0.4616 | keyword: 0.0 | query_hits: 1
+26 | Al-Ma'arij 70:4 | source: dense | distance: 0.4646 | keyword: 0.0 | query_hits: 1
+27 | Al-Qiyamah 75:36 | source: dense | distance: 0.4797 | keyword: 0.0 | query_hits: 1
+28 | Al-Baqarah 2:45 | source: dense | distance: 0.4801 | keyword: 0.0 | query_hits: 1
+29 | Al-Anfal 8:66 | source: dense | distance: 0.4804 | keyword: 0.0 | query_hits: 1
+30 | Al-Kahf 18:29 | source: dense | distance: 0.4882 | keyword: 0.0 | query_hits: 1
+31 | Al-Ma'un 107:5 | source: dense | distance: 0.5334 | keyword: 0.0 | query_hits: 1
+32 | As-Saffat 37:45 | source: dense | distance: 0.538 | keyword: 0.0 | query_hits: 1
+33 | Al-Mu'minun 23:110 | source: dense | distance: 0.5659 | keyword: 0.0 | query_hits: 1
+34 | 'Abasa 80:15 | source: dense | distance: 0.5668 | keyword: 0.0 | query_hits: 1
+35 | Ibrahim 14:50 | source: dense | distance: 0.5677 | keyword: 0.0 | query_hits: 1
+36 | Al-Insan 76:22 | source: dense | distance: 0.5685 | keyword: 0.0 | query_hits: 1
+37 | Ash-Shu'ara 26:1 | source: dense | distance: 0.5748 | keyword: 0.0 | query_hits: 1
+38 | Al-Qasas 28:1 | source: dense | distance: 0.5748 | keyword: 0.0 | query_hits: 1
+39 | Ya-Sin 36:58 | source: dense | distance: 0.5762 | keyword: 0.0 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Al-Qalam 68:49 | semantic: 0.0002 | keyword: 0.0 | query_hits: 5 | source: dense | final: 0.5
+2 | An-Nahl 16:128 | semantic: 0.0001 | keyword: 0.0 | query_hits: 5 | source: dense | final: 0.5
+3 | Al-Kahf 18:69 | semantic: 0.0008 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4902
+4 | Al-Muddaththir 74:6 | semantic: 0.0001 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+5 | Al-Ma'arij 70:6 | semantic: 0.0 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+6 | Ar-Rum 30:60 | semantic: 0.0016 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4603
+7 | Hud 11:12 | semantic: 0.0007 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4601
+8 | Al-Muddaththir 74:7 | semantic: 0.0007 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4601
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(القلم, 49): لَّوۡلَآ أَن تَدَٰرَكَهُۥ نِعۡمَةٞ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلۡعَرَآءِ وَهُوَ مَذۡمُومٞ
+(النحل, 128): إِنَّ ٱللَّهَ مَعَ ٱلَّذِينَ ٱتَّقَواْ وَّٱلَّذِينَ هُم مُّحۡسِنُونَ
+(الكهف, 69): قَالَ سَتَجِدُنِيٓ إِن شَآءَ ٱللَّهُ صَابِرٗا وَلَآ أَعۡصِي لَكَ أَمۡرٗا
+(المدثر, 6): وَلَا تَمۡنُن تَسۡتَكۡثِرُ
+(المعارج, 6): إِنَّهُمۡ يَرَوۡنَهُۥ بَعِيدٗا
+(الروم, 60): فَٱصۡبِرۡ إِنَّ وَعۡدَ ٱللَّهِ حَقّٞۖ وَلَا يَسۡتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ
+(هود, 12): فَلَعَلَّكَ تَارِكُۢ بَعۡضَ مَا يُوحَىٰٓ إِلَيۡكَ وَضَآئِقُۢ بِهِۦ صَدۡرُكَ أَن يَقُولُواْ لَوۡلَآ أُنزِلَ عَلَيۡهِ كَنزٌ أَوۡ جَآءَ مَعَهُۥ مَلَكٌۚ إِنَّمَآ أَنتَ نَذِيرٞۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ وَكِيلٌ
+(المدثر, 7): وَلِرَبِّكَ فَٱصۡبِرۡ
+
+--- FINAL ANSWER ---
+**حكم الصبر على الابتلاء في القرآن**
+
+القرآن يوضح أن الصبر على الابتلاء هو فضيلة يُثنى عليها، ويُعَدّ من صفات المؤمنين الذين يَحْصُلُون على بركة الله ومساندته.  
+
+1. **الاستقامة مع الله**  
+   - *“إِنَّ اللَّهَ مَعَ الَّْذِينَ اتَّقَوا وَالَّذِينَ هُم مُحْسِنُونَ”* (النحل:128).  
+     يُظهر أن الصبر والالتزام بالعبادة يُعطيان المؤمنين دعم الله.
+
+2. **التحمل في وجه الابتلاء**  
+   - *“فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّۖ وَلَا يَسْتَخِفَّنَّكَ الَّذِينَ لَا يُوَقِّنُونَ”* (الروم:60).  
+     يُشدد على أن الصبر هو مفتاح تحقيق وعد الله، وأنه لا يُخاف من من لا يقتنع.
+
+3. **الصبر كوسيلة للنجاة**  
+   - *“وَلِرَبِّكَ فَاصْبِرْ”* (المدثر:7).  
+     الصبر يُعَدّ وسيلة للثبات على الطريق الصحيح، ويُعطي الثقة في أن الله سيُعوض العناء.
+
+4. **التحمل مع الإيمان**  
+   - *“قَالَ سَتَجِدُنِي إِن شَاء اللَّهُ صَابِرًا وَلَا أَعْصِي لَكَ أمرًا”* (الكهف:69).  
+     يُظهر أن الصبر يُعطي القدرة على الاستجابة لأوامر الله دون معارضة.
+
+5. **التحذير من الاستسلام**  
+   - *“وَلَا تَمْنُن تَسْتَكْثِرُ”* (المدثر:6).  
+     يُحذر من الاستسلام للابتلاء، ويشجع على الصبر وعدم الاستسلام.
+
+**الخلاصة**  
+القرآن يضع الصبر على الابتلاء كأحد أهم الصفات التي تُكافأ بها، ويُشجع على الثبات والاعتماد على الله، مع التأكيد على أن الصبر يؤدي إلى تحقيق وعد الله والنجاة من الابتلاء.
+
+--- FINAL VERSES USED ---
+1. Al-Qalam 68:49 (surah_ar: القلم, ayah: 49) | final_score: 0.5 | semantic: 0.0002 | keyword: 0.0 | source: dense
+2. An-Nahl 16:128 (surah_ar: النحل, ayah: 128) | final_score: 0.5 | semantic: 0.0001 | keyword: 0.0 | source: dense
+3. Al-Kahf 18:69 (surah_ar: الكهف, ayah: 69) | final_score: 0.4902 | semantic: 0.0008 | keyword: 0.0 | source: dense
+4. Al-Muddaththir 74:6 (surah_ar: المدثر, ayah: 6) | final_score: 0.49 | semantic: 0.0001 | keyword: 0.0 | source: dense
+5. Al-Ma'arij 70:6 (surah_ar: المعارج, ayah: 6) | final_score: 0.49 | semantic: 0.0 | keyword: 0.0 | source: dense
+6. Ar-Rum 30:60 (surah_ar: الروم, ayah: 60) | final_score: 0.4603 | semantic: 0.0016 | keyword: 0.0 | source: dense
+7. Hud 11:12 (surah_ar: هود, ayah: 12) | final_score: 0.4601 | semantic: 0.0007 | keyword: 0.0 | source: dense
+8. Al-Muddaththir 74:7 (surah_ar: المدثر, ayah: 7) | final_score: 0.4601 | semantic: 0.0007 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #13 | حدث مرتبط بشخصيتين وسبب
+======================================================================
+السؤال: لماذا أُلقي إبراهيم في النار؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{"entities":["إبراهيم"],"concepts":["تحطيم الأصنام","غضب قومه","إلقاؤه في النار","برد وسلام","مواجهة الكفار"],"search_queries":["إبراهيم وتحطيم الأصنام","إلقاء إبراهيم في النار","النار برداً وسلاماً على إبراهيم","مواجهة إبراهيم لقومه"]}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+لماذا أُلقي إبراهيم في النار؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+['إبراهيم']
+
+Concepts:
+['تحطيم الأصنام', 'غضب قومه', 'إلقاؤه في النار', 'برد وسلام', 'مواجهة الكفار']
+
+Search Queries:
+1. إبراهيم وتحطيم الأصنام
+2. إلقاء إبراهيم في النار
+3. النار برداً وسلاماً على إبراهيم
+4. مواجهة إبراهيم لقومه
+5. لماذا أُلقي إبراهيم في النار؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 40
+
+=== ALL CANDIDATES ===
+1 | Al-Anbya 21:69 | source: dense | distance: 0.3645 | keyword: 0.0 | query_hits: 5
+2 | Al-A'raf 7:137 | source: dense | distance: 0.3796 | keyword: 0.0 | query_hits: 4
+3 | Al-Anbya 21:70 | source: dense | distance: 0.3956 | keyword: 0.0 | query_hits: 4
+4 | As-Saffat 37:109 | source: dense | distance: 0.4051 | keyword: 0.0 | query_hits: 4
+5 | As-Saffat 37:108 | source: dense | distance: 0.4144 | keyword: 0.0 | query_hits: 4
+6 | An-Nisa 4:55 | source: dense | distance: 0.3687 | keyword: 0.0 | query_hits: 3
+7 | Al-A'raf 7:136 | source: dense | distance: 0.3935 | keyword: 0.0 | query_hits: 3
+8 | As-Saffat 37:110 | source: dense | distance: 0.3949 | keyword: 0.0 | query_hits: 3
+9 | Al-Anbya 21:68 | source: dense | distance: 0.4036 | keyword: 0.0 | query_hits: 3
+10 | Al-Humazah 104:5 | source: dense | distance: 0.4387 | keyword: 0.0 | query_hits: 3
+11 | Taha 20:80 | source: dense | distance: 0.4023 | keyword: 0.0 | query_hits: 2
+12 | At-Tahrim 66:10 | source: dense | distance: 0.4038 | keyword: 0.0 | query_hits: 2
+13 | Az-Zukhruf 43:58 | source: dense | distance: 0.4395 | keyword: 0.0 | query_hits: 2
+14 | Taha 20:40 | source: dense | distance: 0.4413 | keyword: 0.0 | query_hits: 2
+15 | Al-'Ankabut 29:17 | source: dense | distance: 0.4466 | keyword: 0.0 | query_hits: 2
+16 | Ibrahim 14:34 | source: dense | distance: 0.4645 | keyword: 0.0 | query_hits: 2
+17 | As-Saffat 37:103 | source: dense | distance: 0.4693 | keyword: 0.0 | query_hits: 2
+18 | As-Saffat 37:105 | source: dense | distance: 0.4768 | keyword: 0.0 | query_hits: 2
+19 | An-Najm 53:38 | source: dense | distance: 0.4903 | keyword: 0.0 | query_hits: 2
+20 | Al-Baqarah 2:125 | source: dense | distance: 0.3671 | keyword: 0.0 | query_hits: 1
+21 | Al-Baqarah 2:127 | source: dense | distance: 0.3756 | keyword: 0.0 | query_hits: 1
+22 | Al-Baqarah 2:126 | source: dense | distance: 0.3939 | keyword: 0.0 | query_hits: 1
+23 | Al-'Ankabut 29:24 | source: dense | distance: 0.3962 | keyword: 0.0 | query_hits: 1
+24 | Ghafir 40:47 | source: dense | distance: 0.4052 | keyword: 0.0 | query_hits: 1
+25 | Al-A'raf 7:151 | source: dense | distance: 0.4268 | keyword: 0.0 | query_hits: 1
+26 | Az-Zukhruf 43:55 | source: dense | distance: 0.4308 | keyword: 0.0 | query_hits: 1
+27 | Al-Masad 111:4 | source: dense | distance: 0.4332 | keyword: 0.0 | query_hits: 1
+28 | Adh-Dhariyat 51:45 | source: dense | distance: 0.4333 | keyword: 0.0 | query_hits: 1
+29 | Al-A'la 87:13 | source: dense | distance: 0.4346 | keyword: 0.0 | query_hits: 1
+30 | An-Naba 78:20 | source: dense | distance: 0.4349 | keyword: 0.0 | query_hits: 1
+31 | An-Nahl 16:121 | source: dense | distance: 0.439 | keyword: 0.0 | query_hits: 1
+32 | Adh-Dhariyat 51:24 | source: dense | distance: 0.4391 | keyword: 0.0 | query_hits: 1
+33 | An-Nahl 16:122 | source: dense | distance: 0.4395 | keyword: 0.0 | query_hits: 1
+34 | Taha 20:85 | source: dense | distance: 0.4404 | keyword: 0.0 | query_hits: 1
+35 | Taha 20:86 | source: dense | distance: 0.4412 | keyword: 0.0 | query_hits: 1
+36 | Al-A'raf 7:149 | source: dense | distance: 0.4443 | keyword: 0.0 | query_hits: 1
+37 | Taha 20:87 | source: dense | distance: 0.4474 | keyword: 0.0 | query_hits: 1
+38 | Al-'Ankabut 29:30 | source: dense | distance: 0.4491 | keyword: 0.0 | query_hits: 1
+39 | Ad-Dukhan 44:48 | source: dense | distance: 0.4519 | keyword: 0.0 | query_hits: 1
+40 | Al-Ma'idah 5:30 | source: dense | distance: 0.4553 | keyword: 0.0 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Al-Anbya 21:69 | semantic: 0.0003 | keyword: 0.0 | query_hits: 5 | source: dense | final: 0.5001
+2 | As-Saffat 37:109 | semantic: 0.0046 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4909
+3 | Al-A'raf 7:137 | semantic: 0.0022 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4904
+4 | Al-Anbya 21:70 | semantic: 0.0003 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4901
+5 | As-Saffat 37:108 | semantic: 0.0002 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+6 | Al-A'raf 7:136 | semantic: 0.0007 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4601
+7 | An-Nisa 4:55 | semantic: 0.0003 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4601
+8 | Al-Humazah 104:5 | semantic: 0.0002 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.46
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(الأنبياء, 69): قُلۡنَا يَٰنَارُ كُونِي بَرۡدٗا وَسَلَٰمًا عَلَىٰٓ إِبۡرَٰهِيمَ
+(الصافات, 109): سَلَٰمٌ عَلَىٰٓ إِبۡرَٰهِيمَ
+(الأعراف, 137): وَأَوۡرَثۡنَا ٱلۡقَوۡمَ ٱلَّذِينَ كَانُواْ يُسۡتَضۡعَفُونَ مَشَٰرِقَ ٱلۡأَرۡضِ وَمَغَٰرِبَهَا ٱلَّتِي بَٰرَكۡنَا فِيهَاۖ وَتَمَّتۡ كَلِمَتُ رَبِّكَ ٱلۡحُسۡنَىٰ عَلَىٰ بَنِيٓ إِسۡرَـٰٓءِيلَ بِمَا صَبَرُواْۖ وَدَمَّرۡنَا مَا كَانَ يَصۡنَعُ فِرۡعَوۡنُ وَقَوۡمُهُۥ وَمَا كَانُواْ يَعۡرِشُونَ
+(الأنبياء, 70): وَأَرَادُواْ بِهِۦ كَيۡدٗا فَجَعَلۡنَٰهُمُ ٱلۡأَخۡسَرِينَ
+(الصافات, 108): وَتَرَكۡنَا عَلَيۡهِ فِي ٱلۡأٓخِرِينَ
+(الأعراف, 136): فَٱنتَقَمۡنَا مِنۡهُمۡ فَأَغۡرَقۡنَٰهُمۡ فِي ٱلۡيَمِّ بِأَنَّهُمۡ كَذَّبُواْ بِـَٔايَٰتِنَا وَكَانُواْ عَنۡهَا غَٰفِلِينَ
+(النساء, 55): فَمِنۡهُم مَّنۡ ءَامَنَ بِهِۦ وَمِنۡهُم مَّن صَدَّ عَنۡهُۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا
+(الهمزة, 5): وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ
+
+--- FINAL ANSWER ---
+لا توجد في الآيات المرفقة أي إشارة إلى أن إبراهيم (عليه السلام) أُلقي في النار.  
+الآية التي تُذكر في السورة **الأنبياء** (69) تقول:
+
+> **قُلْنَا يَٰنَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَٰهِيمَ**  
+> (الأنبياء، 69)
+
+وتعني أن الله أمر النار أن تكون باردة وسلامة على إبراهيم، أي أن إبراهيم كان في أمانٍ من النار، وليس في حريقٍ أو حرقٍ.  
+لا توجد آيات أخرى في المجموعة المرفقة تُشير إلى أن إبراهيم أُلقي في النار أو أن عليه عذاب ناري.  
+
+لذلك، استناداً إلى الآيات المرفقة فقط، لا يمكن القول بأن إبراهيم أُلقي في النار؛ بل على العكس، الآية تُظهر أن الله قد أُعطيه حماية من النار.
+
+--- FINAL VERSES USED ---
+1. Al-Anbya 21:69 (surah_ar: الأنبياء, ayah: 69) | final_score: 0.5001 | semantic: 0.0003 | keyword: 0.0 | source: dense
+2. As-Saffat 37:109 (surah_ar: الصافات, ayah: 109) | final_score: 0.4909 | semantic: 0.0046 | keyword: 0.0 | source: dense
+3. Al-A'raf 7:137 (surah_ar: الأعراف, ayah: 137) | final_score: 0.4904 | semantic: 0.0022 | keyword: 0.0 | source: dense
+4. Al-Anbya 21:70 (surah_ar: الأنبياء, ayah: 70) | final_score: 0.4901 | semantic: 0.0003 | keyword: 0.0 | source: dense
+5. As-Saffat 37:108 (surah_ar: الصافات, ayah: 108) | final_score: 0.49 | semantic: 0.0002 | keyword: 0.0 | source: dense
+6. Al-A'raf 7:136 (surah_ar: الأعراف, ayah: 136) | final_score: 0.4601 | semantic: 0.0007 | keyword: 0.0 | source: dense
+7. An-Nisa 4:55 (surah_ar: النساء, ayah: 55) | final_score: 0.4601 | semantic: 0.0003 | keyword: 0.0 | source: dense
+8. Al-Humazah 104:5 (surah_ar: الهمزة, ayah: 5) | final_score: 0.46 | semantic: 0.0002 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #14 | سؤال بلا إجابة واضحة (اختبار الأمانة / عدم الاختلاق)
+======================================================================
+السؤال: ما هو لون قميص يوسف بالتحديد؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{
+  "entities": ["يوسف"],
+  "concepts": [
+    "قميص",
+    "لون",
+    "يوسف"
+  ],
+  "search_queries": [
+    "قميص يوسف اللون",
+    "لون قميص يوسف",
+    "قميص يوسف في القرآن"
+  ]
+}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+ما هو لون قميص يوسف بالتحديد؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+['يوسف']
+
+Concepts:
+['قميص', 'لون', 'يوسف']
+
+Search Queries:
+1. قميص يوسف اللون
+2. لون قميص يوسف
+3. قميص يوسف في القرآن
+4. ما هو لون قميص يوسف بالتحديد؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 41
+
+=== ALL CANDIDATES ===
+1 | Yusuf 12:85 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 8
+2 | Yusuf 12:12 | source: dense | distance: 0.4428 | keyword: 0.0 | query_hits: 8
+3 | Yusuf 12:91 | source: dense | distance: 0.4676 | keyword: 0.0 | query_hits: 8
+4 | Yusuf 12:29 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 6
+5 | Yusuf 12:28 | source: dense | distance: 0.381 | keyword: 0.0 | query_hits: 6
+6 | Yusuf 12:94 | source: dense | distance: 0.4358 | keyword: 0.0 | query_hits: 6
+7 | Yusuf 12:93 | source: dense | distance: 0.4362 | keyword: 0.0 | query_hits: 6
+8 | Yusuf 12:3 | source: dense | distance: 0.4471 | keyword: 0.0 | query_hits: 6
+9 | Yusuf 12:90 | source: dense | distance: 0.4657 | keyword: 0.0 | query_hits: 6
+10 | Yusuf 12:11 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 5
+11 | Yusuf 12:17 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 5
+12 | Yusuf 12:84 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 5
+13 | Yusuf 12:4 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 4
+14 | Yusuf 12:18 | source: dense | distance: 0.5092 | keyword: 0.0 | query_hits: 3
+15 | Yusuf 12:83 | source: dense | distance: 0.5283 | keyword: 0.0 | query_hits: 3
+16 | Yusuf 12:86 | source: dense | distance: 0.5224 | keyword: 0.0 | query_hits: 2
+17 | Yusuf 12:10 | source: hybrid | distance: 0.0 | keyword: 0.75 | query_hits: 1
+18 | Al-An'am 6:86 | source: hybrid | distance: 0.0 | keyword: 0.5 | query_hits: 1
+19 | Al-An'am 6:85 | source: hybrid | distance: 0.0 | keyword: 0.7 | query_hits: 1
+20 | Al-Insan 76:22 | source: dense | distance: 0.509 | keyword: 0.0 | query_hits: 1
+21 | Yusuf 12:78 | source: dense | distance: 0.5262 | keyword: 0.0 | query_hits: 1
+22 | Yusuf 12:30 | source: dense | distance: 0.5271 | keyword: 0.0 | query_hits: 1
+23 | Ghafir 40:35 | source: dense | distance: 0.5687 | keyword: 0.0 | query_hits: 1
+24 | Al-An'am 6:87 | source: dense | distance: 0.5725 | keyword: 0.0 | query_hits: 1
+25 | Ghafir 40:33 | source: dense | distance: 0.5755 | keyword: 0.0 | query_hits: 1
+26 | Al-An'am 6:84 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+27 | Yusuf 12:7 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+28 | Yusuf 12:21 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+29 | Yusuf 12:46 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+30 | Yusuf 12:51 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+31 | Yusuf 12:56 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+32 | Yusuf 12:58 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+33 | Yusuf 12:69 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+34 | Yusuf 12:76 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+35 | Yusuf 12:77 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+36 | Yusuf 12:80 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+37 | Yusuf 12:87 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+38 | Yusuf 12:5 | source: narrative | distance: 0.0 | keyword: 0.7 | query_hits: 1
+39 | Yusuf 12:8 | source: narrative | distance: 0.0 | keyword: 0.7 | query_hits: 1
+40 | Yusuf 12:6 | source: narrative | distance: 0.0 | keyword: 0.5 | query_hits: 1
+41 | Yusuf 12:9 | source: narrative | distance: 0.0 | keyword: 0.5 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Yusuf 12:84 | semantic: 0.0006 | keyword: 0.75 | query_hits: 5 | source: hybrid | final: 0.5232
+2 | Yusuf 12:29 | semantic: 0.0002 | keyword: 0.75 | query_hits: 6 | source: hybrid | final: 0.5231
+3 | Yusuf 12:85 | semantic: 0.0001 | keyword: 0.75 | query_hits: 8 | source: hybrid | final: 0.5231
+4 | Yusuf 12:17 | semantic: 0.0001 | keyword: 0.75 | query_hits: 5 | source: hybrid | final: 0.5231
+5 | Yusuf 12:11 | semantic: 0.0 | keyword: 0.75 | query_hits: 5 | source: hybrid | final: 0.5231
+6 | Yusuf 12:4 | semantic: 0.0002 | keyword: 0.75 | query_hits: 4 | source: hybrid | final: 0.5131
+7 | Yusuf 12:93 | semantic: 0.0005 | keyword: 0.0 | query_hits: 6 | source: dense | final: 0.5001
+8 | Yusuf 12:28 | semantic: 0.0004 | keyword: 0.0 | query_hits: 6 | source: dense | final: 0.5001
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(يوسف, 84): وَتَوَلَّىٰ عَنۡهُمۡ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبۡيَضَّتۡ عَيۡنَاهُ مِنَ ٱلۡحُزۡنِ فَهُوَ كَظِيمٞ
+(يوسف, 29): يُوسُفُ أَعۡرِضۡ عَنۡ هَٰذَاۚ وَٱسۡتَغۡفِرِي لِذَنۢبِكِۖ إِنَّكِ كُنتِ مِنَ ٱلۡخَاطِـِٔينَ
+(يوسف, 85): قَالُواْ تَٱللَّهِ تَفۡتَؤُاْ تَذۡكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوۡ تَكُونَ مِنَ ٱلۡهَٰلِكِينَ
+(يوسف, 17): قَالُواْ يَـٰٓأَبَانَآ إِنَّا ذَهَبۡنَا نَسۡتَبِقُ وَتَرَكۡنَا يُوسُفَ عِندَ مَتَٰعِنَا فَأَكَلَهُ ٱلذِّئۡبُۖ وَمَآ أَنتَ بِمُؤۡمِنٖ لَّنَا وَلَوۡ كُنَّا صَٰدِقِينَ
+(يوسف, 11): قَالُواْ يَـٰٓأَبَانَا مَا لَكَ لَا تَأۡمَ۬نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَٰصِحُونَ
+(يوسف, 4): إِذۡ قَالَ يُوسُفُ لِأَبِيهِ يَـٰٓأَبَتِ إِنِّي رَأَيۡتُ أَحَدَ عَشَرَ كَوۡكَبٗا وَٱلشَّمۡسَ وَٱلۡقَمَرَ رَأَيۡتُهُمۡ لِي سَٰجِدِينَ
+(يوسف, 93): ٱذۡهَبُواْ بِقَمِيصِي هَٰذَا فَأَلۡقُوهُ عَلَىٰ وَجۡهِ أَبِي يَأۡتِ بَصِيرٗا وَأۡتُونِي بِأَهۡلِكُمۡ أَجۡمَعِينَ
+(يوسف, 28): فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٖ قَالَ إِنَّهُۥ مِن كَيۡدِكُنَّۖ إِنَّ كَيۡدَكُنَّ عَظِيمٞ
+
+--- FINAL ANSWER ---
+لا توجد في الآيات المرفقة أي إشارة إلى لون قميص يوسف. لذلك لا يمكن تحديد لون القميص بناءً على النصوص المقدمة.
+
+--- FINAL VERSES USED ---
+1. Yusuf 12:84 (surah_ar: يوسف, ayah: 84) | final_score: 0.5232 | semantic: 0.0006 | keyword: 0.75 | source: hybrid
+2. Yusuf 12:29 (surah_ar: يوسف, ayah: 29) | final_score: 0.5231 | semantic: 0.0002 | keyword: 0.75 | source: hybrid
+3. Yusuf 12:85 (surah_ar: يوسف, ayah: 85) | final_score: 0.5231 | semantic: 0.0001 | keyword: 0.75 | source: hybrid
+4. Yusuf 12:17 (surah_ar: يوسف, ayah: 17) | final_score: 0.5231 | semantic: 0.0001 | keyword: 0.75 | source: hybrid
+5. Yusuf 12:11 (surah_ar: يوسف, ayah: 11) | final_score: 0.5231 | semantic: 0.0 | keyword: 0.75 | source: hybrid
+6. Yusuf 12:4 (surah_ar: يوسف, ayah: 4) | final_score: 0.5131 | semantic: 0.0002 | keyword: 0.75 | source: hybrid
+7. Yusuf 12:93 (surah_ar: يوسف, ayah: 93) | final_score: 0.5001 | semantic: 0.0005 | keyword: 0.0 | source: dense
+8. Yusuf 12:28 (surah_ar: يوسف, ayah: 28) | final_score: 0.5001 | semantic: 0.0004 | keyword: 0.0 | source: dense
+
+======================================================================
+TEST #15 | سؤال طويل ومركّب (اسم شائع + حدث دقيق)
+======================================================================
+السؤال: ما العلامة التي جعلها الله لموسى ليعرف بها مكان لقائه بالخضر، وماذا فعل موسى عندما نسيها؟
+
+--- PIPELINE LOG (optimizer + retrieval + reranking) ---
+--- OPTIMIZER RAW OUTPUT ---
+{"entities":["موسى","الخضر"],"concepts":["علامة","لقاء","نسيان","حوت","مجمع البحرين","علامة لقاء موسى بالخضر"],"search_queries":["موسى والخضر","علامة لقاء موسى بالخضر","نسيان الحوت عند مجمع البحرين","حوت وموسى","مجمع البحرين"]}
+--- END RAW OUTPUT ---
+
+
+==============================
+ORIGINAL QUESTION
+==============================
+ما العلامة التي جعلها الله لموسى ليعرف بها مكان لقائه بالخضر، وماذا فعل موسى عندما نسيها؟
+
+==============================
+OPTIMIZED QUERY
+==============================
+
+Entities:
+['موسى', 'الخضر']
+
+Concepts:
+['علامة', 'لقاء', 'نسيان', 'حوت', 'مجمع البحرين', 'علامة لقاء موسى بالخضر']
+
+Search Queries:
+1. موسى والخضر
+2. علامة لقاء موسى بالخضر
+3. نسيان الحوت عند مجمع البحرين
+4. حوت وموسى
+5. مجمع البحرين
+6. ما العلامة التي جعلها الله لموسى ليعرف بها مكان لقائه بالخضر، وماذا فعل موسى عندما نسيها؟
+
+==============================
+HYBRID RETRIEVAL
+==============================
+Retrieved candidates: 60
+
+=== ALL CANDIDATES ===
+1 | Al-Anbya 21:48 | source: dense | distance: 0.4488 | keyword: 0.0 | query_hits: 4
+2 | An-Nazi'at 79:14 | source: dense | distance: 0.4496 | keyword: 0.0 | query_hits: 4
+3 | Al-Anbya 21:49 | source: dense | distance: 0.455 | keyword: 0.0 | query_hits: 4
+4 | Ar-Rahman 55:20 | source: dense | distance: 0.4992 | keyword: 0.0 | query_hits: 4
+5 | As-Saffat 37:121 | source: dense | distance: 0.4251 | keyword: 0.0 | query_hits: 3
+6 | As-Sajdah 32:24 | source: dense | distance: 0.4762 | keyword: 0.0 | query_hits: 3
+7 | Al-Kahf 18:61 | source: dense | distance: 0.493 | keyword: 0.0 | query_hits: 3
+8 | Al-'Ankabut 29:40 | source: dense | distance: 0.4456 | keyword: 0.0 | query_hits: 2
+9 | Al-A'raf 7:118 | source: dense | distance: 0.4515 | keyword: 0.0 | query_hits: 2
+10 | Ghafir 40:54 | source: dense | distance: 0.4529 | keyword: 0.0 | query_hits: 2
+11 | Ash-Shu'ara 26:47 | source: dense | distance: 0.4537 | keyword: 0.0 | query_hits: 2
+12 | As-Saffat 37:119 | source: dense | distance: 0.4554 | keyword: 0.0 | query_hits: 2
+13 | Ash-Shams 91:1 | source: dense | distance: 0.4575 | keyword: 0.0 | query_hits: 2
+14 | An-Nazi'at 79:15 | source: dense | distance: 0.4624 | keyword: 0.0 | query_hits: 2
+15 | Ar-Rahman 55:76 | source: dense | distance: 0.482 | keyword: 0.0 | query_hits: 2
+16 | Al-Qasas 28:30 | source: dense | distance: 0.4839 | keyword: 0.0 | query_hits: 2
+17 | Ash-Shu'ara 26:61 | source: dense | distance: 0.4866 | keyword: 0.0 | query_hits: 2
+18 | Ar-Rahman 55:77 | source: dense | distance: 0.4892 | keyword: 0.0 | query_hits: 2
+19 | Al-Kahf 18:60 | source: dense | distance: 0.4997 | keyword: 0.0 | query_hits: 2
+20 | As-Sajdah 32:22 | source: dense | distance: 0.5221 | keyword: 0.0 | query_hits: 2
+21 | Al-Baqarah 2:61 | source: hybrid | distance: 0.0 | keyword: 0.7 | query_hits: 1
+22 | Al-A'raf 7:121 | source: dense | distance: 0.452 | keyword: 0.0 | query_hits: 1
+23 | Ghafir 40:53 | source: dense | distance: 0.4543 | keyword: 0.0 | query_hits: 1
+24 | An-Najm 53:37 | source: dense | distance: 0.4564 | keyword: 0.0 | query_hits: 1
+25 | Al-A'la 87:19 | source: dense | distance: 0.461 | keyword: 0.0 | query_hits: 1
+26 | Al-A'raf 7:144 | source: dense | distance: 0.4676 | keyword: 0.0 | query_hits: 1
+27 | An-Nazi'at 79:16 | source: dense | distance: 0.4739 | keyword: 0.0 | query_hits: 1
+28 | Al-A'la 87:18 | source: dense | distance: 0.4778 | keyword: 0.0 | query_hits: 1
+29 | An-Najm 53:36 | source: dense | distance: 0.4789 | keyword: 0.0 | query_hits: 1
+30 | Al-Isra 17:3 | source: dense | distance: 0.483 | keyword: 0.0 | query_hits: 1
+31 | Maryam 19:40 | source: dense | distance: 0.4846 | keyword: 0.0 | query_hits: 1
+32 | Al-A'raf 7:143 | source: dense | distance: 0.4872 | keyword: 0.0 | query_hits: 1
+33 | Ash-Shu'ara 26:46 | source: dense | distance: 0.4887 | keyword: 0.0 | query_hits: 1
+34 | Ash-Shu'ara 26:62 | source: dense | distance: 0.4904 | keyword: 0.0 | query_hits: 1
+35 | Adh-Dhariyat 51:1 | source: dense | distance: 0.4972 | keyword: 0.0 | query_hits: 1
+36 | At-Tur 52:1 | source: dense | distance: 0.4987 | keyword: 0.0 | query_hits: 1
+37 | Al-Kahf 18:62 | source: dense | distance: 0.501 | keyword: 0.0 | query_hits: 1
+38 | Yunus 10:88 | source: dense | distance: 0.5164 | keyword: 0.0 | query_hits: 1
+39 | Taha 20:20 | source: dense | distance: 0.517 | keyword: 0.0 | query_hits: 1
+40 | Al-Kahf 18:59 | source: dense | distance: 0.5191 | keyword: 0.0 | query_hits: 1
+41 | Al-Baqarah 2:51 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+42 | Al-Baqarah 2:54 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+43 | Al-Baqarah 2:60 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+44 | Al-Baqarah 2:67 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+45 | Al-Baqarah 2:87 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+46 | Al-Baqarah 2:92 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+47 | Al-Baqarah 2:108 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+48 | Al-Baqarah 2:136 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+49 | Al-Baqarah 2:246 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+50 | Al-Baqarah 2:248 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+51 | Ali 'Imran 3:84 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+52 | An-Nisa 4:153 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+53 | An-Nisa 4:164 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+54 | Al-Ma'idah 5:20 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+55 | Al-Ma'idah 5:22 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+56 | Al-Ma'idah 5:24 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+57 | Al-An'am 6:84 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+58 | Al-An'am 6:91 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+59 | Al-An'am 6:154 | source: keyword | distance: 0.0 | keyword: 0.75 | query_hits: 1
+60 | Al-Baqarah 2:52 | source: narrative | distance: 0.0 | keyword: 0.7 | query_hits: 1
+
+==============================
+RERANKING
+==============================
+Final verses: 8
+
+=== FINAL VERSES ===
+1 | Al-Anbya 21:48 | semantic: 0.0067 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.4913
+2 | An-Nazi'at 79:14 | semantic: 0.0001 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+3 | Ar-Rahman 55:20 | semantic: 0.0 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+4 | Al-Anbya 21:49 | semantic: 0.0 | keyword: 0.0 | query_hits: 4 | source: dense | final: 0.49
+5 | Al-Kahf 18:61 | semantic: 0.0005 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.4601
+6 | As-Sajdah 32:24 | semantic: 0.0001 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.46
+7 | As-Saffat 37:121 | semantic: 0.0 | keyword: 0.0 | query_hits: 3 | source: dense | final: 0.46
+8 | Al-Kahf 18:60 | semantic: 0.006 | keyword: 0.0 | query_hits: 2 | source: dense | final: 0.4312
+
+==============================
+CONTEXT SENT TO LLM
+==============================
+(الأنبياء, 48): وَلَقَدۡ ءَاتَيۡنَا مُوسَىٰ وَهَٰرُونَ ٱلۡفُرۡقَانَ وَضِيَآءٗ وَذِكۡرٗا لِّلۡمُتَّقِينَ
+(النازعات, 14): فَإِذَا هُم بِٱلسَّاهِرَةِ
+(الرحمن, 20): بَيۡنَهُمَا بَرۡزَخٞ لَّا يَبۡغِيَانِ
+(الأنبياء, 49): ٱلَّذِينَ يَخۡشَوۡنَ رَبَّهُم بِٱلۡغَيۡبِ وَهُم مِّنَ ٱلسَّاعَةِ مُشۡفِقُونَ
+(الكهف, 61): فَلَمَّا بَلَغَا مَجۡمَعَ بَيۡنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِي ٱلۡبَحۡرِ سَرَبٗا
+(السجدة, 24): وَجَعَلۡنَا مِنۡهُمۡ أَئِمَّةٗ يَهۡدُونَ بِأَمۡرِنَا لَمَّا صَبَرُواْۖ وَكَانُواْ بِـَٔايَٰتِنَا يُوقِنُونَ
+(الصافات, 121): إِنَّا كَذَٰلِكَ نَجۡزِي ٱلۡمُحۡسِنِينَ
+(الكهف, 60): وَإِذۡ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبۡرَحُ حَتَّىٰٓ أَبۡلُغَ مَجۡمَعَ ٱلۡبَحۡرَيۡنِ أَوۡ أَمۡضِيَ حُقُبٗا
+
+--- FINAL ANSWER ---
+لا توجد في الآيات المرفقة أي إشارة إلى علامة أو وسيلة محددة وضعها الله لموسى ليعرف بها مكان لقائه بالخضر، ولا توجد أي ذكر لما فعله موسى عندما نسي هذه العلامة. لذلك لا يمكنني تقديم إجابة مستندة إلى نصوصٍ من القرآن.
+
+--- FINAL VERSES USED ---
+1. Al-Anbya 21:48 (surah_ar: الأنبياء, ayah: 48) | final_score: 0.4913 | semantic: 0.0067 | keyword: 0.0 | source: dense
+2. An-Nazi'at 79:14 (surah_ar: النازعات, ayah: 14) | final_score: 0.49 | semantic: 0.0001 | keyword: 0.0 | source: dense
+3. Ar-Rahman 55:20 (surah_ar: الرحمن, ayah: 20) | final_score: 0.49 | semantic: 0.0 | keyword: 0.0 | source: dense
+4. Al-Anbya 21:49 (surah_ar: الأنبياء, ayah: 49) | final_score: 0.49 | semantic: 0.0 | keyword: 0.0 | source: dense
+5. Al-Kahf 18:61 (surah_ar: الكهف, ayah: 61) | final_score: 0.4601 | semantic: 0.0005 | keyword: 0.0 | source: dense
+6. As-Sajdah 32:24 (surah_ar: السجدة, ayah: 24) | final_score: 0.46 | semantic: 0.0001 | keyword: 0.0 | source: dense
+7. As-Saffat 37:121 (surah_ar: الصافات, ayah: 121) | final_score: 0.46 | semantic: 0.0 | keyword: 0.0 | source: dense
+8. Al-Kahf 18:60 (surah_ar: الكهف, ayah: 60) | final_score: 0.4312 | semantic: 0.006 | keyword: 0.0 | source: dense
+
+(.venvs) PS C:\Users\hp\Downloads\pythonproject\quraanproj> 
